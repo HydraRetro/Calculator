@@ -13,10 +13,9 @@ body {
 }
 
 /* CONTAINER */
-.calculator > h1 {
+.calculator>h1 {
     text-align: center;
-    color: white;
-    background-color: gray;
+    color: whitesmoke;
     padding: 10px;
     border-radius: 10px;
 }
@@ -53,7 +52,7 @@ body {
 }
 
 /* Screen */
-.first-row{
+.first-row {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,10 +64,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    margin: 10px;
+    width: 275px;
     height: 75px;
     color: whitesmoke;
-    border: 1px solid black;    
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .previous {
