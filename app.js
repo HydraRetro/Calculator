@@ -44,20 +44,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     decimal.addEventListener('click', function () {
         addDecimal();
-    })
+    });
 });
 
 function handleNumber(num) {
     if (currentValue.length <= 9) {
         currentValue += num;
     }
-}
+};
 
 function handleOperator(op) {
     operator = op;
     previousValue = currentValue;
     currentValue = '';
-}
+};
 
 function calculate() {
     previousValue = Number(previousValue);
@@ -76,16 +76,16 @@ function calculate() {
     previousValue = roundNumber(previousValue);
     previousValue = previousValue.toString();
     currentValue = previousValue.toString();
-}
+};
 
 function roundNumber(num) {
     return Math.round(num * 1000) / 1000;
-}
+};
 
 function addDecimal() {
     if (!currentValue.includes('.')) {
         currentValue += '.';
     }
-}
+};
 
 
