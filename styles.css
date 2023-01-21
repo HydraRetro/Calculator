@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-image: url("photos/bg1.jpg");
+    background-image: url("photos/calc_bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,29 +26,6 @@ body {
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.800);
-}
-
-/* BUTTONS */
-.btn {
-    height: 75px;
-    width: 75px;
-    margin: 10px;
-    font-size: 40px;
-    color: whitesmoke;
-    border: 1px solid black;
-}
-
-.btn:hover {
-    border: 1px solid black;
-    background-color: whitesmoke;
-}
-
-.operator {
-    background-color: rgba(0, 0, 0, 0.500);
-}
-
-#clear-btn {
-    background-color: rgba(255, 217, 0, 0.500);
 }
 
 /* Screen */
@@ -78,4 +55,27 @@ body {
 
 .current {
     font-size: 30px;
+}
+
+/* BUTTONS */
+.btn {
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+    font-size: 40px;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.operator {
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+#clear-btn {
+    background-color: rgba(255, 217, 0, 0.500);
 }
